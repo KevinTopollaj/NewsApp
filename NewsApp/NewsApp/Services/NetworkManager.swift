@@ -49,7 +49,6 @@ class NetworkManager {
         completion(.failure(.jsonParsingFailed))
       }
       
-      
     }
     task.resume()
   }
