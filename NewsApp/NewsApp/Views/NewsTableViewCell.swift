@@ -10,10 +10,23 @@ import UIKit
 final class NewsTableViewCell: UITableViewCell {
   
   // MARK: - Properties -
+  static let reuseIdentifier = String(describing: NewsTableViewCell.self)
+  
   var newsViewModel: NewsViewModel? {
     didSet {
       if let newsViewModel = newsViewModel {
-        
+        titleLabel.text = newsViewModel.title
+        NetworkManager.shared.getImage(urlString: newsViewModel.urlToImage) { [weak self] result in
+          guard let self = self else { return }
+          switch result {
+          case .success(let data):
+            DispatchQueue.main.async {
+              self.newsImageView.image = UIImage(data: data)
+            }
+          case .failure(let error):
+            print(error)
+          }
+        }
       }
     }
   }

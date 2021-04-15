@@ -20,7 +20,7 @@ final class ShadowImageView: UIView {
   private lazy var newsImageView: UIImageView = {
     let imageView = UIImageView()
     imageView.translatesAutoresizingMaskIntoConstraints = false
-    imageView.contentMode = .scaleAspectFit
+    imageView.contentMode = .scaleAspectFill
     imageView.layer.cornerRadius = 20
     imageView.clipsToBounds = true
     return imageView
