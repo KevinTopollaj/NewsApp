@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F3816ED26275D16001AD7EA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3816EC26275D16001AD7EA /* HeaderView.swift */; };
 		1F3816F02627646C001AD7EA /* ShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3816EF2627646C001AD7EA /* ShadowImageView.swift */; };
+		1F3816F326276967001AD7EA /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F3816F226276967001AD7EA /* NewsTableViewCell.swift */; };
 		1F4FBE3E26262F53009EDB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FBE3D26262F53009EDB8B /* AppDelegate.swift */; };
 		1F4FBE4026262F53009EDB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FBE3F26262F53009EDB8B /* SceneDelegate.swift */; };
 		1F4FBE4226262F53009EDB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FBE4126262F53009EDB8B /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 /* Begin PBXFileReference section */
 		1F3816EC26275D16001AD7EA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		1F3816EF2627646C001AD7EA /* ShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowImageView.swift; sourceTree = "<group>"; };
+		1F3816F226276967001AD7EA /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		1F4FBE3A26262F53009EDB8B /* NewsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4FBE3D26262F53009EDB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F4FBE3F26262F53009EDB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				1F3816EC26275D16001AD7EA /* HeaderView.swift */,
 				1F3816EF2627646C001AD7EA /* ShadowImageView.swift */,
+				1F3816F226276967001AD7EA /* NewsTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 				1F4FBE5D26263519009EDB8B /* NewsEnvelope.swift in Sources */,
 				1F4FBE6A262647BF009EDB8B /* NewsViewModel.swift in Sources */,
 				1F4FBE4226262F53009EDB8B /* ViewController.swift in Sources */,
+				1F3816F326276967001AD7EA /* NewsTableViewCell.swift in Sources */,
 				1F4FBE3E26262F53009EDB8B /* AppDelegate.swift in Sources */,
 				1F4FBE632626368E009EDB8B /* NetworkManager.swift in Sources */,
 				1F4FBE552626328B009EDB8B /* APIKey.swift in Sources */,
